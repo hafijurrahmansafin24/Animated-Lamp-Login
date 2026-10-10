@@ -471,3 +471,14 @@ document.getElementById('githubBtn').addEventListener('click', () => {
 
 // Initialize in Off State
 setLamp(false);
+
+
+// Google button
+googleBtn.addEventListener("click", () => {
+  window.open("https://www.google.com/", "_blank");
+});
+
+// GitHub button
+githubBtn.addEventListener("click", () => {
+  window.open("https://github.com/hafijurrahmansafin24", "_blank");
+});
